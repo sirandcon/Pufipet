@@ -1,10 +1,148 @@
-<h3 id="comanda">Comandă acum:</h3>
-<iframe
-  src="https://docs.google.com/forms/d/e/1FAIpQLSdA890rE6_AooN6cF2EmUaBPtTLZVBChLdVQxnNY4l9AWXwbg/viewform?embedded=true"
-  allowfullscreen
-  frameborder="0"
-  marginheight="0"
-  marginwidth="0"
->
-  Se încarcă…
-</iframe>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PufiPet - Perie Smart™</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #f8cdda;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f6a6b2;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    h1, h2, h3 {
+      color: #d04875;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #d04875;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✔️ ";
+    }
+
+    .testimonials {
+      background-color: #f2f2f2;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+      margin-top: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #eee;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      main {
+        padding: 1rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PufiPet</h1>
+  </header>
+
+  <nav>
+    <a href="#acasa">Acasă</a>
+    <a href="#magazin">Magazin</a>
+    <a href="#contact">Contact</a>
+    <a href="#comanda">Comandă</a>
+  </nav>
+
+  <main>
+    <section id="acasa">
+      <h2>Perie Smart™ cu AutoCurățare</h2>
+      <p>Blană perfectă în doar 2 minute! Fără stres, fără mizerie – doar fericire pentru tine și blănosul tău.</p>
+      <a class="button" href="#comanda">Comandă acum - 19.99€</a>
+    </section>
+
+    <section id="magazin">
+      <h3>De ce să alegi Peria Smart™?</h3>
+      <ul>
+        <li>🧼 Curățare automată – un singur click</li>
+        <li>🐾 Ideală pentru câini și pisici</li>
+        <li>😻 Blană mai sănătoasă și lucioasă</li>
+        <li>🚚 Livrare rapidă din România</li>
+      </ul>
+
+      <h3>Perie Smart™ - Detalii Produs</h3>
+      <p><strong>Preț promoțional:</strong> <del>29.99€</del> <strong>19.99€</strong> + Livrare Gratuită</p>
+      <a class="button" href="#comanda">Comandă Acum</a>
+    </section>
+
+    <section class="testimonials">
+      <h3>Ce spun clienții:</h3>
+      <p>"Am o pisică persană și peria asta e sfântă. Curăț în 30 secunde!" – Elena M., București</p>
+      <p>"Super ușor de folosit, și câinele meu chiar stă calm când o folosesc!" – Alex B., Cluj</p>
+    </section>
+
+    <section id="comanda">
+      <h3>Comandă acum:</h3>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdA890rE6_AooN6cF2EmUaBPtTLZVBChLdVQxnNY4l9AWXwbg/viewform?embedded=true"
+        width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">
+        Se încarcă…
+      </iframe>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 PufiPet.ro | <a href="#">Politica de retur</a> | <a href="#">Contact</a> | <a href="#">GDPR</a>
+  </footer>
+
+</body>
+</html>
